@@ -15,7 +15,7 @@ def page1():
 
 # Page 2
 def page2():
-    st.title("Visualizations")
+    st.title("Visualization")
     st.write("Welcome to Page 2!")
     data = load_data()
     
@@ -30,11 +30,10 @@ def page3():
     if cocktail_name != "":
         ingredient_recommendations = get_cocktail_recommendations(data, cocktail_name)
 
-        if len(data)> 0:
-            cocktail_index = data.index[0]
-            ingredient_recommendations = get_cocktail_recommendations(data, cocktail_name)
-            st.write("Ingredients: " + data['ingredients_combined'][cocktail_index])
+        if len(ingredient_recommendations) > 0:
             st.write("Recommended cocktails based on ingredients:")
+            cocktail_index = data[data['strDrink'].str.lower() == cocktail_name].index
+            st.write("Ingredients: " + data['ingredients_combined'][cocktail_index[0]])
             for recommendation in ingredient_recommendations:
                 st.write(recommendation)
         else:
