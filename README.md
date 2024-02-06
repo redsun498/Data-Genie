@@ -20,10 +20,12 @@ The objective of this project is to develop a Natural Language Processing (NLP) 
 - Tableau 
 
 # Project Description:
-The dataset used in this project consists of a collection of cocktail recipes, including the ingredients used and instructions for preparation. The data was collected from various sources, such as cocktail recipe websites and databases. It includes both alcoholic and non-alcoholic drinks, along with a variety of ingredients and mixtures.
+The dataset used in this project consists of a collection of cocktail recipes, including the ingredients used and instructions for preparation. The data was collected using the TheCocktailDb, a database that stores hundres of recipes for drinks and shares them with the usage of an API (a free version or a paid one). The dataset includes both alcoholic and non-alcoholic drinks, along with a variety of ingredients, clasiffiers (glass type, IBA, drink type, etc) and the measures for the ingredients.
+
+You can access the API here: https://www.thecocktaildb.com/api.php?ref=apilist.fun. 
 
 # Steps:
-- Data Collection: Gathering cocktail recipes and associated data from multiple sources
+- Data Collection: Gathering the cocktail recipes and associated data with the API
 - Data Cleaning and Preprocessing: Removing duplicates, handling missing values, and preparing the data for NLP analysis
 - Exploratory Data Analysis: Understanding the distribution of ingredients, common flavor profiles, and ingredient combinations
 - Feature Engineering: Creating features based on ingredient similarity and drink categories
