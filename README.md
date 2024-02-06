@@ -36,4 +36,5 @@ The NLP cocktail recommendation model successfully provides personalized drink r
 
 Contact:
 LinkedIn: https://www.linkedin.com/in/axel-lopez-cabezas-213194170/
+
 GitHub: https://github.com/redsun498
