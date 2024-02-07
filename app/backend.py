@@ -1,4 +1,3 @@
-import os
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
@@ -12,8 +11,7 @@ from pywaffle import Waffle
 import streamlit as st 
 
 def load_data():
-    file_path = os.path.abspath("../data/cleaned/all_drinks_cleaned.csv")
-    data = pd.read_csv(file_path)    
+    data = pd.read_csv("all_drinks_cleaned.csv")
     return data
 
 def vectorizer():
