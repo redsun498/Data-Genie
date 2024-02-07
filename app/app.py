@@ -10,7 +10,7 @@ st.set_page_config(
 # Page 1
 def page1():
     st.title("Dashboard")
-    st.write("Welcome to Page 1!")
+    st.write("The following visualizations are the main insights that were gleamed in the project.")
     data = load_data()
     
     # Create a sidebar for user input
