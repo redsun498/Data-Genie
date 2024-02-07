@@ -11,7 +11,7 @@ from pywaffle import Waffle
 import streamlit as st 
 
 def load_data():
-    file_path = "data/clean/all_drinks_cleaned.csv"
+    file_path = "data/cleaned/all_drinks_cleaned.csv"
     data = pd.read_csv(file_path)
     return data
 
