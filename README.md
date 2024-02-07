@@ -36,7 +36,9 @@ You can access the API here: https://www.thecocktaildb.com/api.php?ref=apilist.f
 # Conclusion:
 The NLP cocktail recommendation model successfully provides personalized drink recommendations based on user-input ingredients. The model utilizes NLP techniques to understand the relationships between ingredients and to offer tailored suggestions for cocktail recipes. The model's performance and user satisfaction have been positive, making it a valuable tool for cocktail enthusiasts and bartenders.
 
-Contact:
+The recommendation model can be viewed here: https://final-project-brief-end-to-end-data-analytics-project-5ivblfah.streamlit.app/
+
+# Contact:
 LinkedIn: https://www.linkedin.com/in/axel-lopez-cabezas-213194170/
 
 GitHub: https://github.com/redsun498
