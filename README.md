@@ -1,4 +1,4 @@
-# NLP Cocktail Recommendation Model
+# Data Genie
 Project status: Completed
 
 # Project Objective:
