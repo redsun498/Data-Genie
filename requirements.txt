@@ -1,10 +1,8 @@
-tableau == 2023.3.1
-python == 3.10.13
 pandas == 2.2.0
 numpy == 1.26.3
 requests ==  2.31.0
 streamlit == 1.31.0
-matplotlib.pyplot  == 3.8.2
+matplotlib  == 3.8.2
 wordcloud ==  1.9.3 
 pywaffle ==  1.1.0
 scikit-learn == 1.4.0
